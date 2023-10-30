@@ -1,0 +1,160 @@
+*{
+    font-family: 'Orbitron', 'Jura', sans-serif;
+}
+
+.orbFont{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.juraFont{
+    font-family: 'Jura', sans-serif;
+}
+
+:root{
+    --main:rgb(0, 0, 0);
+    --sec: #2B9DF4;
+}
+
+body{
+    background-color: black;
+}
+
+#moon{
+    font-size: 25px;
+}
+
+#missile{
+    display: flex;
+    justify-content: end;
+}
+
+nav{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+}
+
+.link:hover
+{
+    color: gray;
+}
+
+header{
+    height: 660px;
+    background: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.341), rgb(0, 0, 0)), url(./Immagini/moon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Orbitron';
+    color: white;
+    font-size: 4.5rem;
+    margin-left: 20px;
+}
+
+.p{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+p{
+    color: white;
+}
+
+.bi-chevron-down{
+    font-size: 3rem;
+    color: var(--sec);
+}
+
+#card{
+    background-color: black;
+    height: 200px;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h6{
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Jura', sans-serif;
+    color: var(--sec);
+}
+
+.paragraph{
+    margin-left: 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+hr{
+    background-color: #2B9DF4;
+    height: 3px;
+    border-radius: 50%;
+}
+
+.div{
+    width: 23%;
+}
+
+.rigaCard{
+    color: #2B9DF4;
+}
+
+.numeri{
+    font-size: 35px;
+}
+
+.linea{
+    background-color: #2B9DF4 ;
+    height: 2px;
+    width: 20%;
+}
+
+#sezione1{
+    background-image: url(./Immagini/moon2.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+
+footer{
+    display: flex;
+    align-items: end;
+    background-image: url(./Immagini/sunrise-1765027_1920.jpg), linear-gradient(rgba(0, 0, 0, 0.51), rgb(255, 255, 255,1));
+    height: 90vh;
+}
+
+.lineEnd {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid transparent;
+    border-image: 
+    linear-gradient(to left, rgba(0,0,0), black, rgba(43,157,244,1), black, rgb(0,0,0));
+    border-image-slice: 5;
+    width:100%;
+} 
+
+#social{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
